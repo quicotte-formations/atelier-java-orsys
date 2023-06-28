@@ -4,7 +4,7 @@ public abstract class Vehicule {
 
 	protected int x;
 	protected int y;
-	
+
 	public abstract void avancer();
 
 	@Override

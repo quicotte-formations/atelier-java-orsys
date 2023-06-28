@@ -4,14 +4,16 @@ public class Ex3 {
 
 	public static void main(String[] args) {
 
-		Service s = new Service();
+		ServiceEx3 s = new ServiceEx3();
+		// Retrait
 		try {
 			s.retrait(1, 100);
 			s.transferer(1, 2, 10000);
-		}catch(MontantInvalideException | MontantTropEleveException e) {
-			System.out.println(e.getMessage());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			System.out.println( e.getMessage() );
 		}
+
 	}
 
-	
 }

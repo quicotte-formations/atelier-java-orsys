@@ -73,5 +73,4 @@ public class Horloge {
 	public String toString() {
 		return String.format("%d:%d:%d", this.h, this.m, this.s);
 	}
-
 }

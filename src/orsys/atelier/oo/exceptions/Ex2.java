@@ -11,7 +11,7 @@ public class Ex2 {
 		}catch(MontantInvalideException e) {
 			System.out.println("Montant invalide");
 		}catch(MontantTropEleveException e) {
-			e.printStackTrace();
+			System.out.println("Montant trop élevé");
 		}
 	}
 
