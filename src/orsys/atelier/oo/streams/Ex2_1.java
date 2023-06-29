@@ -16,7 +16,7 @@ public class Ex2_1 {
 		films.add( new Film("cendillon", "enfant", "walt disney", 1954) );
 		films.add( new Film("jackie brown", "policier", "tarantino", 1997) );
 		
-		films = (ArrayList<Film>) films.stream()
+		films.stream()
 				.filter( film -> film.getGenre().equals("enfant") )
 				.sorted(Comparator.comparing(Film::getAnneeSortie))
 				.collect(Collectors.toList());

@@ -9,7 +9,6 @@ public class Film {
 	
 	
 	public Film(String titre, String genre, String realisateur, int anneeSortie) {
-		super();
 		this.titre = titre;
 		this.genre = genre;
 		this.realisateur = realisateur;
